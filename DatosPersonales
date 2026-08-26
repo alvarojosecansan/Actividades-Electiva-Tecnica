@@ -1,0 +1,13 @@
+
+# FICHERO PERSONAL
+
+print("▸ Nombre completo: Álvaro José Cantillo Sánchez")
+print("▸ Edad: 22")
+print("▸ Lugar de residencia: Ciénaga, Magdalena")
+print("▸ Peso: 68 Kg")
+print("► Actitudes: Responsable, humilde, respuestuoso, colaborativo, empático, honesto y disciplinado")
+print("► Pasatiempos: Leer, Escuchar música, Jugar Videojuegos, salir, arreglar equipos, ver películas, dormir")
+print("► Ocupación: Estudiante de Sistemas") 
+print("► Correo electrónico: alvarojosecansan@gmail.com")
+print("► Idiomas: Español, Inglés (Básico)")
+print("► Metas actuales: Finalizar prácticas profesionales y conseguir mi primer titulo")
