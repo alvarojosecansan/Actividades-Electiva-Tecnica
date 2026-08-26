@@ -1,0 +1,98 @@
+# 1. Suma de 2 números diferentes
+
+print("Suma de 2 números diferentes")
+
+# El Ingresar 2 valores númericos 
+numero1 = int(input(">Ingrese un número: ")) 
+numero2 = int(input(">Ingrese otro número: "))
+
+# Suma
+resultado = numero1 + numero2 
+print("El resultado de la suma es:", resultado)
+
+# Resta
+resultado = numero1 - numero2 
+print("El resultado de la resta es:", resultado)
+
+# Multiplicación
+resultado = numero1 * numero2 
+print("El resultado de la multiplicación es:", resultado)
+
+# División
+resultado = numero1 / numero2 
+print("El resultado de la división es:", resultado)
+# 2. Concatenación de cadenas
+
+print("Nombre Completo")
+
+# Pedimos el nombre al usuario
+Nombre = input (">Ingrese su Nombre: ")
+
+# Pedimos el apellido
+Apellido = input (">Ingrese su Apellido: ")
+
+# Unimos el nombre y apellido previamente registrados
+NombreCompleto = Nombre + " " + Apellido
+
+# Mostramos el resultado del nombre completo
+print (">Su nombre completo es:",NombreCompleto)
+# 3. Módulo par e impar
+
+print("Identificador de números pares e impares")
+
+#Pedimos un número entero al usuario
+numero = int(input(">Ingrese un número entero: "))
+
+#Si el residuo al dividir entre 2 es cero, es par
+if numero % 2 == 0:
+     print(">El número",numero, "es par" )
+     
+# Si tiene residuo, es impar
+else:
+      print(">El número",numero, "es impar" )
+# 4. Comparación Lógica
+
+print("Comparación de edad")
+
+# Pedimos las dos edades al usuario
+edad1 = int(input(">Ingrese un número de edad: "))
+edad2 = int(input(">Ingrese otro número de edad: "))
+
+# Comprobamos si ambas edades son iguales
+igualdad = (edad1 == edad2)
+print(">Son iguales ambas edad?: ", igualdad)
+
+# Verificamos si la primera edad es mayor que la segunda
+mayor = edad1 > edad2
+print(">La primer edad es mayor qué la segunda?: ", mayor)
+
+# Verificamos si ambas edades son mayores que 18
+mayor18 = (edad1 > 18) and (edad2 > 18)
+print(">Ambas edades son mayores qué 18?: ", mayor18)
+# 5. Repetir una cadena
+
+print("Repetidor de caracteres")
+
+# Multiplicaremos el carácter "=" para 40 crear la líneas
+linea = ("=" * 40)
+
+# Mostramos la línea decorativa en pantalla en la terminal
+print(linea)
+# 6. Constantes físicas
+
+print("Encontrar el área de un círculo")
+
+# Ingresamos el radio del círculo 
+radio = float(input(">Define el Radio(r): "))
+
+# Definimos la constante PI
+Pi = 3.1416
+print(">(π)=",Pi)
+
+# Calculamos el área aplicando la fórmula
+Área = Pi * radio ** 2
+
+# Mostramos la fórmula y el resultado final
+print(">Formula a usarse: (A = π x r²)")
+
+print (">El área total del círculo es :", Área,"cm")
