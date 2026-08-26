@@ -1,0 +1,17 @@
+# 1. Define 2 variables numéricoas: Ancho y alto
+
+ancho = 10
+alto = 6
+
+# 2. Calcula el área multiplicando ancho por alto
+
+area = ancho * alto
+
+# 3. Calcular el perimetro: 2 * (ancho + alto)
+
+perimetro = 2 * (ancho + alto)
+
+#4. Muestra los resultados con print () 
+
+print("Área total es:", area)
+print("Perimetro total es:", perimetro)
